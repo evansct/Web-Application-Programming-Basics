@@ -1,0 +1,92 @@
+/* element */
+body {
+    background-color: #F8F8F8;
+    font-family: sans-serif;
+    text-align: justify;
+}
+footer {
+    height: 125px;
+    background-color: #707070;
+    width: 100%
+}
+header {
+    height: 125px;
+    background-color: rgb(245, 190, 40);
+    margin-bottom: -16px;
+}
+nav {
+    border-color: rgb(64,64,64);
+    background-color: #404040;
+}
+section {
+    margin-left: 20px;
+}
+
+/* id */
+#platformLogos img {
+    width: 175px;
+}
+#contactFooter {
+    font-size: 10pt;
+    display: inline-block;
+    margin-right: 50px;
+}
+#currentPage {
+    background-color: black;
+}
+#footerLogo {
+    float: left;
+    margin-top: 25px;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+#headerLogo {
+    padding-left: 1%;
+    padding-top: 30px;
+}
+#licenseFooter {
+    font-size: 10pt;
+    display: inline-block;
+}
+#platformLogos {
+    width: 45%;
+    text-align: center;
+}
+
+
+/* classes */
+.articleText {
+    font-size: 12pt;
+}
+.articleTitle {
+    font-size: 20pt;
+    font-weight: bold;
+}
+.headerLink {
+    color: white;
+}
+.licenseRow:hover {
+    background-color: yellow;
+}
+.navigationList {
+    list-style: none;
+    height: 50px;
+    margin-bottom: 0px;;
+    color: white;
+    
+}
+.navigationList li {
+    display: inline-block;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.navigationList a {
+    color: white;
+}
+.footerImage {
+    width: 30px;
+    height: 30px;
+}
+.footerDiv {
+    width: 100px;
+}

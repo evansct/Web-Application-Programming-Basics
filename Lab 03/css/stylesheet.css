@@ -1,0 +1,32 @@
+.container{
+    height: 60px;
+    border: 1px solid black;
+}
+.bpink{
+    background-color: pink;
+}
+.bblue{
+    background-color: lightblue;
+}
+#pleftmargin {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+#ptopmargin {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+#pmargin {
+    margin: 30px;
+}
+#pleftpadding {
+    padding-left: 20px;
+    padding-top: 0px;
+}
+#ptoppadding {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+#ppadding {
+    padding: 10px;
+}

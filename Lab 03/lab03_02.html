@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 03 - Page 02</title>
+    <style>
+        #firstp {
+            display: block;
+            background-color: red;
+            height: 30px;
+            width: 500px;
+        }
+        #secondp {
+            display: block;
+            background-color: green;
+            height: 30px;
+            width: 500px;
+        }
+        #thirdp {
+            display: inline;
+            background-color: lightblue;
+            height: 30px;
+            width: 500px;
+        }
+        #fourthp {
+            display: inline;
+            background-color: orange;
+            height: 30px;
+            width: 500px;
+        }
+        .inlineblockp {
+            display:inline-block;
+            background-color: pink;
+            height: 60px;
+            width: 300px;
+            border: 1px solid black;
+        }
+        .displayinline {
+            display: inline;
+        }
+        .displayblock {
+            display: block;
+        }
+        .displayinlineblock {
+            display: inline-block;
+        }
+        .thumbnail {
+            width: 200px;
+            height: 200px;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Page 2: Display property</h1>
+    </header>
+    <nav>
+        <ul style="list-style: none">
+            <li style="display: inline"><a href="lab03_01.html">Page 01</a></li>
+            <li style="display: inline">Page 02</li>
+            <li style="display: inline"><a href="lab03_03.html">Page 03</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Block and Inline</h2>
+            <p id="firstp">The display property of the first paragraph is block.</p>
+            <p id="secondp">The display property of the second paragraph is also block.</p>
+            <p id="thirdp">The display property of the third paragraph is inline.</p>
+            <p id="fourthp">The display property of the fourth paragraph is also inline.</p>
+        </article>
+        <article>
+            <h2>Inline-block</h2>
+            <p class="inlineblockp">The display property of the paragraph 1 is inline-block.</p>
+            <p class="inlineblockp">The display property of the paragraph 2 is inline-block.</p>
+            <p class="inlineblockp">The display property of the paragraph 3 is inline-block.</p>
+        </article>
+        <article>
+            <h2>Images and text</h2>
+            <img class="thumbnail" src="images/blue.jpg" alt="Blue flower">
+            <p class="displayinline">This text appears inline with the image<br></p>
+            <img class="thumbnail" src="images/daisy.jpg" alt="White flower">
+            <p class="displayblock">This text appears as a block with the image</p>
+            <img class="thumbnail" src="images/red.jpg" alt="Red flower">
+            <p class="displayinlineblock">This text appears as a inline-block with the image</p>
+            <p></p>
+            <div class="center">
+                <img class="thumbnail" src="images/daisy.jpg" alt="White flower">
+                <img class="thumbnail" src="images/red.jpg" alt="Red flower">
+                <img class="thumbnail" src="images/blue.jpg" alt="Blue flower">
+            </div>
+        </article>
+    </section>
+</body>
+</html>
